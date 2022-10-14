@@ -1,21 +1,26 @@
 # Toolbox 🧰
 
-🧰 Tổng hợp các 🛠️ tools & 📝 scripts cho Cloud engineer ☁️
+🧰 Tổng hợp các tools 🛠️ & scripts 📝 cho Cloud engineer ☁️
 
 ## Mục lục
 
 - [Toolbox 🧰](#toolbox-)
   - [Mục lục](#mục-lục)
-  - [Scripts phân loại theo vendors và services](#)
+  - [Scripts phân loại theo vendors và services](#scripts-phân-loại-theo-vendors-và-services)
+    - [AWS](#aws)
+      - [EC2](#ec2)
+      - [S3](#s3)
     - [Azure](#azure)
       - [DevOps](#devops)
       - [Service Bus](#service-bus)
-    - [AWS](#aws)
-      - [S3](#s3)
 
 ## Scripts phân loại theo vendors và services
 
 ### AWS
+
+#### EC2
+
+- **[resize_volume.sh](aws/ec2/resize_volume.sh)** - Resize volume của disk cho EC2 instance
 
 #### S3
 
