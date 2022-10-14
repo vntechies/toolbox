@@ -7,7 +7,7 @@
 from azure.servicebus import ServiceBusMessage, ServiceBusSubQueue, ServiceBusClient
 from azure.servicebus.management import ServiceBusAdministrationClient
 
-# These should be configured via a pipeline variables or runtime env
+# These should be configured via pipeline variables or runtime env
 CONNETION_STRING = ""
 TOPIC_NAME = ""
 SUBSCRIPTION_NAME = ""
@@ -15,14 +15,14 @@ SUBSCRIPTION_NAME = ""
 
 def main():
     try:
-        # get the count of dead letter queue (DLQ) messages at the time that the code start being executed
+        # Get the count of dead letter queue (DLQ) messages at the time that the execution starts
         servicebus_admin_client = ServiceBusAdministrationClient.from_connection_string(
             conn_str=CONNETION_STRING)
         subscription_properties = servicebus_admin_client.get_subscription_runtime_properties(
             topic_name=TOPIC_NAME, subscription_name=SUBSCRIPTION_NAME)
         dlq_messages_count = subscription_properties.dead_letter_message_count
 
-        # no DLQ messages
+        # No DLQ messages
         if dlq_messages_count < 1:
             print("No DLQ messages")
             return
@@ -37,7 +37,7 @@ def main():
                 received_msgs = dlq_receiver.receive_messages(
                     max_message_count=1000, max_wait_time=10)
                 # DLQ messages might be added to the subscription during the execution,
-                # we have to limit the number of messages to be deleted or this will be an infinity loop
+                # we have to limit the number of messages to be deleted, or this will be an infinity loop
                 while (len(received_msgs) > 0 and deleted_msg_count < dlq_messages_count):
                     for msg in received_msgs:
                         # delete DLQ messages
