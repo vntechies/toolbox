@@ -1,6 +1,6 @@
 # Toolbox 🧰
 
-🧰 Tổng hợp các tools 🛠️ & scripts 📝 cho Cloud engineer ☁️
+🧰 Tổng hợp các tools 🛠️ & scripts 📝 cho Cloud/DevOps engineer ☁️
 
 ## Mục lục
 
