@@ -4,9 +4,10 @@
 #
 # This script lists all the files that are older than N days in a bucket
 
-import boto3
 import datetime
 from time import mktime
+
+import boto3
 
 # These should be configured via pipeline variables or runtime env
 AGE_IN_DAYS = 1
