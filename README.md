@@ -12,6 +12,7 @@
       - [S3](#s3)
     - [Azure](#azure)
       - [DevOps](#devops)
+      - [Search Service](#search-service)
       - [Service Bus](#service-bus)
 
 ## Scripts phân loại theo vendors và services
@@ -31,6 +32,11 @@
 #### DevOps
 
 - **[change_tags.py](azure/devops/change_tags.py)** - Thay đổi tag của machine trong deployment group của Azure DevOps
+
+#### Search Service
+
+- **[get_index.py](azure/search_service/get_index.py)** - Lấy thông tin của index của Azure Search service sử dụng Azure API
+- **[delete_index.py](azure/search_service/delete_index.py)** - Xoá một index của Azure Search service sử dụng Azure API
 
 #### Service Bus
 
