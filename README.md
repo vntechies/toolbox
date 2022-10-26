@@ -103,4 +103,4 @@ Cách bạn có thể [đóng góp cho dự án này.](https://github.com/vntech
 
 Nếu bạn thấy dự án này hữu ích, xin hãy ủng hộ VNTechies một ly cà phê. Các đóng góp sẽ được sử dụng để duy trì dự án mã nguồn mở này.
 
-<a href="https://www.buymeacoffee.com/vntechies" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=vntechies&button_colour=da251d&font_colour=ffff00&font_family=Cookie&outline_colour=ffff00&coffee_colour=ffff00"></a>
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S2FXIOJ)
