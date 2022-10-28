@@ -15,18 +15,8 @@ Vui lòng đóng góp thông qua việc tạo các Pull Request (PR). Trước k
 1. Bạn đang làm việc với mã nguồn mới nhất trên nhánh _main_.
 2. Bạn kiểm tra các PR đang mở và đã được merge gần đây để đảm bảo rằng người khác chưa đóng góp điều tương tự.
 3. Bạn tạo một issue mới để thảo luận về những thay đổi lớn, chúng tôi không muốn thời gian của bạn bị lãng phí
-
-# Contribution Guidelines
-
-Thank you for your interest in contributing to the [AWS Toolbox.](https://github.com/dannysteenman/aws-toolbox)
-
-Please read through this document before submitting any issues or pull requests to ensure we have all the necessary information to effectively respond to your issue or contribution.
-
-## Reporting Bugs or Feature Requests
-
-We welcome you to use the GitHub issue tracker to report bugs or suggest features.
-
-When filing an issue, please check [existing open](https://github.com/dannysteenman/aws-toolbox/issues), or [recently closed](https://github.com/dannysteenman/aws-toolbox/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20), issues to make sure somebody else hasn't already reported the issue. Please try to include as much information as you can.
+ 
+Để gửi PR cho VNTechies, xin vui lòng:
 
 1. Fork repository này.
 2. Sửa đổi mã nguồn, tập trung vào thay đổi cụ thể mà bạn muốn đóng góp.

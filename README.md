@@ -103,4 +103,4 @@ Cách bạn có thể [đóng góp cho dự án này.](https://github.com/vntech
 
 Nếu bạn thấy dự án này hữu ích, xin hãy ủng hộ VNTechies một ly cà phê. Các đóng góp sẽ được sử dụng để duy trì dự án mã nguồn mở này.
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S2FXIOJ)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/vntechies)
