@@ -36,18 +36,18 @@
 ## Mục lục
 
 - [Toolbox 🧰](#toolbox-)
-  - [Mục lục](#mục-lục)
-  - [Scripts phân loại theo vendors và services](#scripts-phân-loại-theo-vendors-và-services)
-    - [AWS](#aws)
-      - [EC2](#ec2)
-      - [S3](#s3)
-    - [Azure](#azure)
-      - [DevOps](#devops)
-      - [Search Service](#search-service)
-      - [Service Bus](#service-bus)
-  - [Blogs](#blogs)
-  - [Người đóng góp](#người-đóng-góp)
-  - [Ủng hộ VNTechies ❤️‍🔥](#ủng-hộ-vntechies-%EF%B8%8F)
+	- [Mục lục](#mục-lục)
+	- [Scripts phân loại theo vendors và services](#scripts-phân-loại-theo-vendors-và-services)
+		- [AWS](#aws)
+			- [EC2](#ec2)
+			- [S3](#s3)
+		- [Azure](#azure)
+			- [DevOps](#devops)
+			- [Search Service](#search-service)
+			- [Service Bus](#service-bus)
+	- [Blogs](#blogs)
+	- [Người đóng góp](#người-đóng-góp)
+	- [Ủng hộ VNTechies ❤️‍🔥](#ủng-hộ-vntechies-️)
 
 ## Scripts phân loại theo vendors và services
 
@@ -56,6 +56,7 @@
 #### EC2
 
 - **[resize_volume.sh](aws/ec2/resize_volume.sh)** - Resize volume của disk cho EC2 instance
+- **[unassociated_eip.sh](aws/ec2/unassociated_eip.sh)** - Lấy danh sách các IP address chưa được gắn với tài nguyên
 
 #### S3
 
