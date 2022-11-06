@@ -45,6 +45,7 @@
 			- [DevOps](#devops)
 			- [Search Service](#search-service)
 			- [Service Bus](#service-bus)
+	- [k8s](#k8s)
 	- [Blogs](#blogs)
 	- [Người đóng góp](#người-đóng-góp)
 	- [Ủng hộ VNTechies ❤️‍🔥](#ủng-hộ-vntechies-️)
@@ -76,6 +77,10 @@
 #### Service Bus
 
 - **[purge_dlq.py](azure/service_bus/purge_dlq.py)** - Purge các messages của Death Letter Queue (DLQ) của Service Bus
+
+## k8s
+
+- **[kubelet_check.sh](k8s/kubelet_check.sh)** - Lấy trạng thái của kubelet trên mỗi nodes của cluster
 
 ## Blogs
 
