@@ -62,6 +62,7 @@
 #### S3
 
 - **[list_file_older_than_n_days.py](aws/s3/list_file_older_than_n_days.py)** - Liệt kê các files có thời gian upload trên N ngày của S3
+- **[empty_delete_bucket.sh](aws/s3/empty_delete_bucket.sh)** - Làm trống (xoá tất cả files) và xoá bucket **mãi mãi**
 
 ### Azure
 
