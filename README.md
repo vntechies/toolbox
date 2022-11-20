@@ -41,6 +41,7 @@
 		- [AWS](#aws)
 			- [EC2](#ec2)
 			- [S3](#s3)
+			- [IAM](#iam)
 		- [Azure](#azure)
 			- [DevOps](#devops)
 			- [Search Service](#search-service)
@@ -63,6 +64,10 @@
 
 - **[list_file_older_than_n_days.py](aws/s3/list_file_older_than_n_days.py)** - Liệt kê các files có thời gian upload trên N ngày của S3
 - **[empty_delete_bucket.sh](aws/s3/empty_delete_bucket.sh)** - Làm trống (xoá tất cả files) và xoá bucket **mãi mãi**
+
+#### IAM
+
+- **[iam_assume_role.sh](aws/iam/iam_assume_role.sh)** - Sử dụng STS để tạo AWS credential tạm thời cho một client (phù hợp cho việc tạo AWS Codebuild cần cross-account access)
 
 ### Azure
 
@@ -94,8 +99,7 @@ Các blog chứa các thủ thuật và thông tin hữu ích.
 | <a href="https://aws.amazon.com/blogs/architecture/feed/"> <img src="rss.png" width="22" height="22" > </a>               | **[AWS Architecture Blog](https://aws.amazon.com/blogs/architecture/)** | Các bài viết về Architecture trên dựa trên những best practices                                                    |
 | <a href="https://www.lastweekinaws.com/feed/"> <img src="rss.png" width="22" height="22" > </a>                           | **[Last week in AWS](https://www.lastweekinaws.com)**                   | Những cập nhật mới nhất trong tuần qua trên AWS                                                                    |
 | <a href="https://www.hashicorp.com/blog/feed.xml"> <img src="rss.png" width="22" height="22" > </a>                       | **[HashiCorp Blog](https://www.hashicorp.com/blog)**                    | Tin tức mới nhất về các sản phẩm và hệ sinh thái của HashiCorp, các bài viết từ cộng đồng                          |
-| <a href="https://kubernetes.io/feed.xml"> <img src="rss.png" width="22" height="22" > </a>                       | **[K8S Blog](https://kubernetes.io/blog/)**                    | Tin tức mới nhất liên quan tới K8S và hệ sinh thái xung quanh                   |
-
+| <a href="https://kubernetes.io/feed.xml"> <img src="rss.png" width="22" height="22" > </a>                                | **[K8S Blog](https://kubernetes.io/blog/)**                             | Tin tức mới nhất liên quan tới K8S và hệ sinh thái xung quanh                                                      |
 
 ---
 
