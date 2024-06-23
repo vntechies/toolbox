@@ -69,6 +69,10 @@
 
 - **[iam_assume_role.sh](aws/iam/iam_assume_role.sh)** - Sử dụng STS để tạo AWS credential tạm thời cho một client (phù hợp cho việc tạo AWS Codebuild cần cross-account access)
 
+#### VPC 
+
+- **[delete_default_vpc.py](aws/vpc/delete_default_vpc.py)** - Xoá default VPC được tạo trong tài khoản AWS
+
 ### Azure
 
 #### DevOps
